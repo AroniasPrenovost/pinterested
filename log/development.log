@@ -4901,3 +4901,10 @@ Completed 200 OK in 391ms (Views: 375.2ms | ActiveRecord: 0.0ms)
 
 
 Started GET "/assets/bootstrap_and_customization.self-0dc0f2561bce6365fd8ab8f4691c26eb23b2c8e70a1c36f9eeebce7ac30db54e.css?body=1" for ::1 at 2016-03-10 07:41:54 -0800
+
+
+Started GET "/" for ::1 at 2016-03-10 08:40:12 -0800
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (4.5ms)
+  Rendered layouts/_header.html.erb (10.1ms)
+Completed 200 OK in 760ms (Views: 745.9ms | ActiveRecord: 0.0ms)
