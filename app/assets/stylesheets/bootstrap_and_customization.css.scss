@@ -1,7 +1,30 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+
+/* this is the bottom background */
 $body-bg: #ecf0f1;
-$navbar-inverse-bg: #27ae60;
-$navbar-inverse-link-color: white;
-$brand-primary: #f1c40f;
-$jumbotron-bg: #bdc3c7;
+
+/* this is the whole background */
+$navbar-inverse-bg: #3498db;
+
+$navbar-height: 45px;
+
+/* these are the nav letters in the top navbar */
+$navbar-inverse-link-color: black;
+
+/* this is the button color */
+$brand-primary: #3498db;
+
+/* this is the inner background of the masthead */
+$jumbotron-bg: #ecf0f1;
+
+
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
+
+.center {
+	text-align: center;
+}
+.navbar-brand	{
+		font-weight: bold;
+}
+
