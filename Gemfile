@@ -11,9 +11,9 @@ gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass'
 gem 'sqlite3'
 
-# group :development, :test do
-# 	gem 'sqlite3'
-# end
+group :development, :test do
+	gem 'sqlite3'
+end
 
 group :production do
 	gem 'pg'
