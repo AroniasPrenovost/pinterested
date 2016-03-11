@@ -5617,3 +5617,10 @@ Processing by PagesController#home as HTML
   Rendered pages/home.html.erb within layouts/application (2.7ms)
   Rendered layouts/_header.html.erb (1.8ms)
 Completed 200 OK in 581ms (Views: 565.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-03-10 22:33:23 -0800
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+Completed 200 OK in 168ms (Views: 167.2ms | ActiveRecord: 0.0ms)
